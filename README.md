@@ -1,22 +1,15 @@
-# my-vue-app
+# TRYscript- basic 
+to see the app in action https://www.youtube.com/watch?v=9wDpk7sg1Dk&t=14s
 
-> A Vue.js project
-
-## Build Setup
-
+to run the app
 ``` bash
-# install dependencies
 npm install
 
-# serve with hot reload at localhost:8080
 npm run dev
 
-# build for production with minification
-npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
+ node ./src/server
 ```
+> A Vue.js + sqlite project
 
-For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+
 # TRYSCRIPT-BASIC
