@@ -119,7 +119,7 @@ var storageObj =
 //C:\Users\sam\Downloads\TRYscript.json
 
 
-import FULLJsondata from 'C:/Users/sam/Downloads/TRYscript.json'
+import FULLJsondata from 'TRYscript.json'
 //console.log("content inside client is"+ JSON.stringify(client ))
 //let FULLJsondata = client ;
 
