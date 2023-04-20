@@ -3,7 +3,7 @@
 <div id="mainPageC">
 
 <div id="PointSpace">
-      <b-col lg="8" style="background-color:#5A6268;">
+      <b-col lg="6" style="background-color:#5A6268;">
         <b-card :title="(model.id ? 'Edit Point ID#' + model.id : 'New Point')">
           <form style="background-color:white;"  @submit="savePoint()">
 
@@ -42,18 +42,19 @@
           
 
 
-            <b-form-group label="Label :">
+         <b-form-group label=" ">
+            <b>title :</b>
            <h2 > {{model.title}} </h2>
               <b-form-input type="text" v-model="model.title"></b-form-input>
             </b-form-group>
 
       
-            <b-form-group label="Details :">
+            <b-form-group label="">
+            <b>Details :</b>
              <p > {{model.body}} </p>
               <b-form-textarea rows="4" v-model="model.body"></b-form-textarea>
             </b-form-group>
             <div>
-
 
 
 
